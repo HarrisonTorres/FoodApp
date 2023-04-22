@@ -20,7 +20,7 @@ function BannerSecudary() {
           </Link>
         </div>
         <div className="flex-1 flex justify-center items-center">
-          <Image src={"/assets/character.png"} width={999} height={999} />
+          <Image src={"/assets/delivery.png"} width={999} height={999} />
         </div>
       </div>
     </div>
