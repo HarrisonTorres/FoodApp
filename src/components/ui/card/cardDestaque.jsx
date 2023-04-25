@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-function CardHome({srcImage, alt, title, subTitle, price}) {
+function CardDestaque({srcImage, alt, title, subTitle, price}) {
 
   return (
     <div className="flex flex-col items-center w-32 h-56 pb-4">
@@ -25,4 +25,4 @@ function CardHome({srcImage, alt, title, subTitle, price}) {
     </div>
     )
 }
-export default CardHome;
+export default CardDestaque;

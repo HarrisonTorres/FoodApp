@@ -3,11 +3,12 @@ import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
 
 //UI
-import CardHome from "./ui/cardHome";
+
 import SubTitleSection from './ui/subTitleSection'
 
 //images
 import ImgFoodFirsh from "/public/assets/food1.png";
+import CardDestaque from "./ui/card/cardDestaque";
 
 function Burges() {
   return (
@@ -26,35 +27,35 @@ function Burges() {
         </Link>
       </div>
       <div className="flex flex-row gap-4 overflow-scroll mt-4">
-        <CardHome
+        <CardDestaque
           srcImage={ImgFoodFirsh}
           alt="Foto do lanche"
           title="Big Burger"
           subTitle="Mais vendidos"
           price="7,59"
         />
-        <CardHome
+        <CardDestaque
           srcImage={ImgFoodFirsh}
           alt="Foto do lanche"
           title="Big Burger"
           subTitle="Mais vendidos"
           price="7,59"
         />
-        <CardHome
+        <CardDestaque
           srcImage={ImgFoodFirsh}
           alt="Foto do lanche"
           title="Big Burger"
           subTitle="Mais vendidos"
           price="7,59"
         />
-        <CardHome
+        <CardDestaque
           srcImage={ImgFoodFirsh}
           alt="Foto do lanche"
           title="Big Burger"
           subTitle="Mais vendidos"
           price="7,59"
         />
-        <CardHome
+        <CardDestaque
           srcImage={ImgFoodFirsh}
           alt="Foto do lanche"
           title="Big Burger"
