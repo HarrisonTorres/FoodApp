@@ -17,6 +17,7 @@ function Burges() {
         <SubTitleSection subTitle={'Pupulares'}/>
         <Link
           href={"./"}
+          alt='Icon'
           className="flex flex-row justify-end items-center text-xs font-medium text-orange-600 gap-1"
         >
           Ver tudo

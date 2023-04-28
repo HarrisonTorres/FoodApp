@@ -4,7 +4,7 @@ import { RiAddLine, RiSubtractLine } from "react-icons/ri";
 
 function CardCart({ srcImage, alt, title, subTitle, price }) {
   return (
-    <div className="w-full h-28 bg-white rounded-xl py-3 px-6 flex flex-row justify-around items-center  shadow-lg"> 
+    <div className="w-full h-24 bg-white rounded-xl py-3 px-6 flex flex-row justify-around items-center  shadow-lg"> 
       <div className="flex flex-row items-center justify-around w-full">
         <Image
             src={srcImage}

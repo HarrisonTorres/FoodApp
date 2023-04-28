@@ -3,9 +3,9 @@ import { ListFormat } from "typescript";
 
 export default function Category() {
   return (
-    <div className="flex flex-col items-start gap-4 w-full">
+    <div className="flex flex-col items-start gap-4 w-full " id="category">
       <div className="">
-        <h3 className="text-base font-medium">Categorias</h3>
+        <h3 className="text-base font-medium" >Categorias</h3>
       </div>
       <div className="flex w-full">
         <ul className="flex flex-row gap-2 overflow-scroll pb-3">

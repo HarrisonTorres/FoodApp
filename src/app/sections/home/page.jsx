@@ -9,13 +9,11 @@ import FoodList from '../../../components/foodList';
 export default function Home() {
   return (
     <div className='w-full h-full flex flex-col m-auto gap-6'> 
-      <AppBar/> 
       <Banner/>
       <Burges />
       <BannerSecudary />
-      <Category/>
+      <Category />
       <FoodList />
-      
     </div>
   )
 }
