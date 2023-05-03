@@ -3,12 +3,10 @@ import Image from 'next/image';
 
 import ButtonAddCart from '../buttons/buttonAddCart';
 
-
-
-function CardListFoods({srcImage, alt, title, subTitle, price} ) {
+function CardListFoods({srcImage, alt, title, subTitle, price, onClick} ) {
   return (
-    <div className='w-full bg-white rounded-xl p-4 flex flex-row justify-center items-center shadow-lg'>
-        <div className='flex flex-row items-end justify-between w-full gap-4 '>
+    <div className='w-full bg-white rounded-xl p-4 flex flex-row justify-center items-end shadow-lg'>
+        <div className='flex flex-row items-end justify-between w-full gap-4' onClick={onClick}>
             <div className='flex flex-row items-center gap-4'>
                 <Image
                         src={srcImage}
@@ -28,8 +26,9 @@ function CardListFoods({srcImage, alt, title, subTitle, price} ) {
                     </div>
                 </div>
             </div>
-            <ButtonAddCart/>
+            
         </div>
+        <ButtonAddCart/>
     </div>
   )
 }
