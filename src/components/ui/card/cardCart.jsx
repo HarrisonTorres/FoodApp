@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { RiAddLine, RiSubtractLine } from "react-icons/ri";
+
+
+//Ui Components
+import CartAddOrDelete from '../buttons/cartAddOrDelete'
 
 function CardCart({ srcImage, alt, title, subTitle, price }) {
   return (
@@ -20,18 +23,8 @@ function CardCart({ srcImage, alt, title, subTitle, price }) {
             <p className="text-lg font-normal">{price}</p>
           </div>
         </div>
-        <div className="flex flex-row py-1 px-2 bg-orange-400 rounded-2xl gap-3 justify-center items-center">
-          <div>
-            <a href="#">
-              <RiSubtractLine size={14} color="white"/>
-            </a>
-          </div>
-          <span className="text-white font-light">1</span>
-          <div>
-            <a href="#">
-              <RiAddLine size={18} color="white"/>
-            </a>
-          </div>
+        <div>
+          <CartAddOrDelete />
         </div>
       </div>
     </div>

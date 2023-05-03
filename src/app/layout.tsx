@@ -1,6 +1,8 @@
-import AppBar from "@/components/appBar";
-import "./globals.css";
 import Link from "next/link";
+import "./globals.css";
+
+
+
 import { RiShoppingBag3Line, RiHome5Line, RiMenuFill } from "react-icons/ri";
 
 export const metadata = {
@@ -15,10 +17,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=" m-auto p-0 w-screen h-screen bg-orange-50 ">
-        <nav className="fixed top-0 w-full p-2 bg-orange-50 shadow-md z-50">
-          <AppBar />
-        </nav>
+      <body className=" m-auto p-0 w-full bg-orange-50 ">  
+        
         <section className="fixed bottom-0 w-full h-16 flex justify-center item-center rounded-t-3xl bg-white shadow-lg shadow-orange-400 z-50">
           <nav className="flex flex-row justify-around w-full items-center">
             <Link href="/" id="home">
@@ -38,7 +38,9 @@ export default function RootLayout({
             </Link>
           </nav>
         </section>
-        <main className="container m-auto p-6 mt-14">{children}</main>
+          <main>
+              {children}
+          </main>
       </body>
     </html>
   );
