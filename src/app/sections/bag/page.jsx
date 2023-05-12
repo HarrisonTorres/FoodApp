@@ -14,7 +14,9 @@ export default function Bag() {
   return (
     <div className="m-auto p-0 w-full h-full bg-orange-50">
       <nav className="m-auto py-2 px-4 w-full bg-orange-50 flex flex-row items-center justify-between fixed top-0 z-50 shadow-md">
+        <div>
           <VoltarButton />
+        </div>
         <div className="text-2xl font-semibold">Meu carrinho</div>
         <div>
           <RiMore2Fill size={28} />
