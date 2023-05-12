@@ -4,7 +4,7 @@ import { RiSearchLine } from "react-icons/ri";
 
 export default function AppBar() {
   return (
-    <div className="flex flex-row justify-between items-center gap-1">
+    <nav className="flex flex-row justify-between items-center gap-1">
       <div className="w-12 h-10 rounded-full bg-orange-400">
         <Image
           src={"/assets/profile.png"}
@@ -21,6 +21,6 @@ export default function AppBar() {
       <div className="w-5 h-5">
         <RiSearchLine size={20} />
       </div>
-    </div>
+    </nav>
   );
 }

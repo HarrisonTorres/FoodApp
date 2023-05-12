@@ -1,17 +1,29 @@
 import React from 'react';
 import Image from 'next/image';
 
-import ButtonAddCart from '../buttons/buttonAddCart';
+import ButtonAddCart from './buttonAddCart';
 
+import ImgFoodFirsh from "/public/assets/food1.png";
 
+interface CardFoodProps{
+    srcImage?: {}
+    alt: string,
+    title: string,
+    subTitle: string,
+    price: string,
+    key: number,
+    id: number
+}
 
-function CardListFoods({srcImage, alt, title, subTitle, price} ) {
+const CardListFoods: React.FC<CardFoodProps> = ({srcImage, alt, title, subTitle, price,id } ) => {
+
+   
   return (
     <div className='w-full bg-white rounded-xl p-4 flex flex-row justify-center items-center shadow-lg'>
         <div className='flex flex-row items-end justify-between w-full gap-4 '>
             <div className='flex flex-row items-center gap-4'>
                 <Image
-                        src={srcImage}
+                        src={ImgFoodFirsh}
                         alt={alt}
                         width={80}
                         height={80}
@@ -28,7 +40,7 @@ function CardListFoods({srcImage, alt, title, subTitle, price} ) {
                     </div>
                 </div>
             </div>
-            <ButtonAddCart/>
+            <ButtonAddCart id={id}/>
         </div>
     </div>
   )

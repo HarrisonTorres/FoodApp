@@ -4,11 +4,11 @@ import { RiArrowRightSLine } from "react-icons/ri";
 
 //UI
 
-import SubTitleSection from './ui/subTitleSection'
+import SubTitleSection from "../../../components/ui/subTitleSection"
 
 //images
 import ImgFoodFirsh from "/public/assets/food1.png";
-import CardDestaque from "./ui/card/cardDestaque";
+import CardDestaque from "../../../components/ui/card/cardDestaque";
 
 function Burges() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { ListFormat } from "typescript";
 
-import { dados_lanches } from "../../database/api_fake";
+import { dados_lanches } from "/database/api_fake";
 
 const categoriasConverce = [
   {

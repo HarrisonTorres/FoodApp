@@ -1,16 +1,20 @@
 'use client'
 
-import React from "react";
+import { CartContext } from "@/app/contexts/cartContext";
+import React, { useContext } from "react";
 
-function ButtonAddCart() {
+function ButtonAddCart({id}) {
 
-    function test(){
-        console.log("funcionando em cliente");
-      }
+  const {addCart, cart} = useContext(CartContext);
+  
+  const handleClick = () => {
+    addCart(id)
+    console.log(cart)
+  }
 
   return (
     <>
-      <a onClick={test}>
+      <button onClick={handleClick}>
         <div className="w-6 h-6 bg-orange-400 rounded-full flex justify-center items-center">
           <svg
             width="16"
@@ -25,7 +29,7 @@ function ButtonAddCart() {
             />
           </svg>
         </div>
-      </a>
+      </button>
     </>
   );
 }

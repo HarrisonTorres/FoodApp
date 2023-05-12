@@ -1,8 +1,6 @@
 import Link from "next/link";
 import "./globals.css";
 
-
-
 import { RiShoppingBag3Line, RiHome5Line, RiMenuFill } from "react-icons/ri";
 
 export const metadata = {
@@ -39,7 +37,7 @@ export default function RootLayout({
           </nav>
         </section>
           <main>
-              {children}
+            {children}
           </main>
       </body>
     </html>

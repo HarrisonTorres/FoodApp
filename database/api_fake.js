@@ -6,7 +6,8 @@ export const dados_lanches = [
         title_itens: 'Big Burge',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '1',
+        id: 1,
+        count: 1,
     },
     {  
         image: '../public/assets/food1.png',
@@ -15,7 +16,8 @@ export const dados_lanches = [
         title_itens: 'Big Salada',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '2',
+        id: 2,
+        count: 1,
     },
     {  
         image: '../public/assets/food1.png',
@@ -24,7 +26,8 @@ export const dados_lanches = [
         title_itens: 'Quatro queijos',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '3',
+        id: 3,
+        count: 1,
     }, 
     {  
         image: '../public/assets/food1.png',
@@ -33,7 +36,8 @@ export const dados_lanches = [
         title_itens: 'Big Burguer',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '4',
+        id: 4,
+        count: 1,
     }, 
     {  
         image: '../public/assets/food1.png',
@@ -42,7 +46,8 @@ export const dados_lanches = [
         title_itens: 'Big Burguer',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '5',
+        id: 5,
+        count: 1,
     }, 
     {  
         image: '../public/assets/food1.png',
@@ -51,7 +56,8 @@ export const dados_lanches = [
         title_itens: 'Big Burguer',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '6',
+        id: 6,
+        count: 1,
     },
     {  
         image: '../public/assets/food1.png',
@@ -60,7 +66,8 @@ export const dados_lanches = [
         title_itens: 'Big Burguer',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '7',
+        id: 7,
+        count: 1,
     },
     {  
         image: '../public/assets/food1.png',
@@ -69,6 +76,7 @@ export const dados_lanches = [
         title_itens: 'Big Burguer',
         descrition_from_itens: '2 hamburguer, alface, cebola, pliques e um pão com gergilim',
         price: '7,59',
-        id: '8',
+        id: 8,
+        count: 1,
     },  
 ]

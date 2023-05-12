@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 //ui
-import SubTitleSection from "./ui/subTitleSection";
+import SubTitleSection from "../../../components/ui/subTitleSection";
 
 function BannerSecudary() {
   return (
