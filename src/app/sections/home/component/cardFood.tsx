@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import ButtonAddCart from './buttonAddCart';
 
-<<<<<<< HEAD:src/app/sections/home/component/cardFood.tsx
+
 import ImgFoodFirsh from "/public/assets/food1.png";
 
 interface CardFoodProps{
@@ -18,13 +18,9 @@ interface CardFoodProps{
 
 const CardListFoods: React.FC<CardFoodProps> = ({srcImage, alt, title, subTitle, price,id } ) => {
 
-   
-=======
-function CardListFoods({srcImage, alt, title, subTitle, price, onClick} ) {
->>>>>>> 60c44ea368d212333b98bebd6b5e51edba036b4e:src/components/ui/card/cardListFoods.jsx
   return (
     <div className='w-full bg-white rounded-xl p-4 flex flex-row justify-center items-end shadow-lg'>
-        <div className='flex flex-row items-end justify-between w-full gap-4' onClick={onClick}>
+        <div className='flex flex-row items-end justify-between w-full gap-4' >
             <div className='flex flex-row items-center gap-4'>
                 <Image
                         src={ImgFoodFirsh}
@@ -44,13 +40,9 @@ function CardListFoods({srcImage, alt, title, subTitle, price, onClick} ) {
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD:src/app/sections/home/component/cardFood.tsx
             <ButtonAddCart id={id}/>
-=======
-            
->>>>>>> 60c44ea368d212333b98bebd6b5e51edba036b4e:src/components/ui/card/cardListFoods.jsx
         </div>
-        <ButtonAddCart/>
+
     </div>
   )
 }
